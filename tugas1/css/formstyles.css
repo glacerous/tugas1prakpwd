@@ -1,0 +1,44 @@
+.form-bg-img {
+    height: 125vh;
+    width: 100vw;
+    object-fit:cover;
+    filter: brightness(0.9);
+    position:absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+
+.form-container {
+    background: rgba(197, 227, 255, 0.15); 
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    animation: float 3s ease-in-out infinite alternate;
+}
+.form-label {
+    font-weight: bold;
+    color: #000000; 
+}
+
+.form-control, .form-select {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #f5c2c2;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
